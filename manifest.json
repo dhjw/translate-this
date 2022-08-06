@@ -1,0 +1,16 @@
+{
+    "name": "Translate This",
+    "description": "Right-click to translate selected text",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "service.js"
+    },
+	"icons": {
+		"64": "translate.png"
+	}
+}
